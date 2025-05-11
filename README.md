@@ -6,7 +6,7 @@ The goal of this lib was to replicate the great work done by the sRDI team
 
 [sRDI](https://github.com/monoxgas/sRDI)
 
-Unfortunately, the latest versions of sRDI no longer work
+Unfortunately, the latest versions of sRDI no longer works
 
 There is however, a GO implementation that does:
 
@@ -23,7 +23,7 @@ Simply run the build.sh script and it will generate a bin directory
 This directory will create 3 files:
 
 ```
- - srdi32.exe (Win32 PE tool for created x64/x86 DLL shellcode)
+ - srdi32.exe (Win32 PE tool for creating x64/x86 DLL shellcode)
  - srdi64.exe (Win64 PE tool for creating x64/x86 DLL shellcode)
  - srdi64     (Linux ELF tool for creating x64/x86 DLL shellcode)
 ```
