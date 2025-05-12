@@ -1,6 +1,6 @@
 # SRDI C++
 
-This Code will generate a Windowa Native DLL into position independent shellcode
+This Code will generate a Windows Native DLL into position independent shellcode
 
 The goal of this lib was to replicate the great work done by the sRDI team
 

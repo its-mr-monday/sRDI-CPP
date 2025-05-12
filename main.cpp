@@ -2,13 +2,8 @@
 #include "srdi.hpp"
 #include <stdint.h>
 #include <stdio.h>
-//Stuff for files
 #include <fstream>
 #include <iostream>
-
-#ifndef BYTE
-typedef unsigned char BYTE;
-#endif
 
 std::vector<BYTE> readFile(std::string path) {
     std::vector<BYTE> buffer;
