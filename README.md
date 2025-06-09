@@ -12,7 +12,7 @@ There is however, a GO implementation that does:
 
 [Doge-sRDI](https://github.com/timwhitez/Doge-sRDI)
 
-This project is a C++ implementation of Doge-sRDI, it completes the same goal as that application
+This project is a C++ implementation of Doge-sRDI, it completes the same goal as that application, it also provides a header only solution if you wish to bundle this in your own project [Header Usage Here](./LIBRARY_USAGE.md)
 
 The project can target Win32, Win64 and Linux64
 
