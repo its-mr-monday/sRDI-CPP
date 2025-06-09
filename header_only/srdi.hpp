@@ -32,7 +32,13 @@ SOFTWARE.
 
 #ifdef _WIN32
 #define WIN32_LEAN_AND_MEAN
+#if defined(_MSC_VER)
+//Visual Studio Header
+#include <Windows.h>
+#else
+//Mingw64 Header
 #include <windows.h>
+#endif
 #endif
 
 #ifndef _WIN32
